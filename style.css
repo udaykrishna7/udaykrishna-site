@@ -27,6 +27,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
 }
 
 .link-primary {
@@ -116,7 +117,10 @@ hr {
     border-top-right-radius: 1rem;
 }
 
-
+.footer .footer-header{
+    font-weight: 700;
+    font-size: large;
+}
 .footer .link{
     color: white;
 }
