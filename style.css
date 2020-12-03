@@ -11,7 +11,7 @@ body {
     margin: 0px;
 }
 
-hr {
+hr { 
     margin: 3rem 0rem;
 }
 
@@ -21,6 +21,7 @@ hr {
 
 .container-center {
     max-width: 600px;
+    box-align: center;
     margin: auto;
 }
 
@@ -98,11 +99,19 @@ hr {
 }
 
 .section{
-    padding: 2rem;
+    padding: 3rem;
+    align: center;
+    margin-bottom: 2rem;
 }
 .section h1 {
     text-align: center;
+    color: black;
 
+}
+
+.section p {
+    text-align: left;
+    color: black;
 }
 
 .off-white{
@@ -130,6 +139,11 @@ hr {
     padding-inline-start: 0px;
 }
 
-.margin{
-    margin-bottom: 40px;
+
+
+.blog-link {
+    color: black;
+    border-radius: 0.5rem;
+    background-color: var(--off-white) ;
 }
+
