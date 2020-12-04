@@ -4,6 +4,7 @@
     --primary-color: #3B82F6;
     --dark-grey: #6B7280;
     --off-white: #F3F4F6;
+    --black-text: #292929;
 }
 
 body {
@@ -105,13 +106,13 @@ hr {
 }
 .section h1 {
     text-align: center;
-    color: black;
+    color: var(--black-text);
 
 }
 
 .section p {
     text-align: left;
-    color: black;
+    color:var(--black-text);
 }
 
 .off-white{
@@ -142,7 +143,7 @@ hr {
 
 
 .blog-link {
-    color: black;
+    color: var(--black-text);
     border-radius: 0.5rem;
     background-color: var(--off-white) ;
 }
