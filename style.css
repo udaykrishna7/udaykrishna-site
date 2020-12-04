@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 :root {
     --primary-color: #3B82F6;
@@ -11,7 +13,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
-
+.blog{
+    font-family: 'Roboto', sans-serif;
+}
 hr { 
     margin: 3rem 0rem;
 }
@@ -113,6 +117,7 @@ hr {
 .section p {
     text-align: left;
     color:var(--black-text);
+    margin: 2rem 2rem;
 }
 
 .off-white{
