@@ -122,6 +122,7 @@ hr {
 
 .off-white{
     background-color: var(--off-white);
+    
 }
 
 
@@ -153,3 +154,13 @@ hr {
     background-color: var(--off-white) ;
 }
 
+.project-section{
+    width: 100%;
+    margin: 1rem 0px;
+    padding: 2rem 1rem;
+
+}
+.list-margin{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
